@@ -1,4 +1,8 @@
-## 🛒 Retail ETL Data Pipeline
+
+<h1>
+  Retail ETL Data Pipeline
+  <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/57d317ea938ace00a89fb7bea9b9aae6ae22a335/Images/shopping%20cart(1).gif" width="100">
+</h1>
 
 An end-to-end **data engineering pipeline** that ingests, validates, and transforms retail e-commerce data into analytics-ready datasets using a **Medallion Architecture (Bronze → Silver → Gold)**.
 
