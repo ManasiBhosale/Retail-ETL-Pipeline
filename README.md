@@ -290,3 +290,19 @@ Execute the pipeline in order:
 ```
 
 ---
+## 🙏 Credits
+
+- **Dataset:** Brazilian E-Commerce Public Dataset by Olist ([Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce))
+- **Platforms used:** [Databricks](https://www.databricks.com/) for ETL and data engineering, and [Power BI](https://powerbi.microsoft.com/) for dashboards
+- **Dashboard theme inspiration:** [Superstore Sales Theme](https://community.fabric.microsoft.com/t5/Themes-Gallery/Superstore-Sales/td-p/3231442)
+
+- **Icon Credits:**<br>
+  <sub><em>(Below icons were used in the PowerBI report)</em></sub>
+  
+  <sub>
+  <a href="https://www.flaticon.com/free-icons/whiteboard" title="whiteboard icons">Whiteboard icons created by Freepik - Flaticon</a><br>
+  <a href="https://www.flaticon.com/free-icons/commerce-and-shopping" title="commerce and shopping icons">Commerce and shopping icons created by Freepik - Flaticon</a><br>
+  <a href="https://www.flaticon.com/free-icons/graph" title="graph icons">Graph icons created by bukeicon - Flaticon</a><br>
+  <a href="https://www.flaticon.com/free-icons/business-and-finance" title="business and finance icons">Business and finance icons created by bukeicon - Flaticon</a>
+  </sub>
+---
