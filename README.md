@@ -49,8 +49,8 @@ This architecture is widely used in **modern lakehouse systems** such as Databri
 
 | Technology               | Purpose                              |
 | ------------------------ | ------------------------------------ |
-| **Python**               | ETL orchestration                    |
-| **PySpark**              | Distributed data transformations     |
+| **Python**               | Exploratory Data Analysis (EDA)      |
+| **PySpark**              | ETL data transformations             |
 | **Delta Lake**           | Storage format and table management  |
 | **Databricks Notebooks** | Development environment              |
 | **SQL**                  | Data transformations and validations |
@@ -63,7 +63,7 @@ This architecture is widely used in **modern lakehouse systems** such as Databri
 
 The pipeline includes a **configuration-driven data quality validation framework**.
 
-Quality checks are defined through a **`dq_config` object**, allowing reusable validation rules across datasets.
+Quality checks are defined through a **`dq_config` object**, allowing reusable and scalable validation rules across datasets.
 
 ## Supported Validations
 
@@ -120,7 +120,7 @@ Validation is performed using **left anti joins** to detect orphan records.
 
 # 🗂 Data Model
 
-The Gold Layer follows a **dimensional modeling approach** designed for analytics workloads.
+The Gold Layer follows a **dimensional modelling approach** designed for analytics workloads.
 
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/57756fec241deb84a3370b942aacd385cdacd95e/Images/Data%20Model%20Diagram1.png" width="70%">
