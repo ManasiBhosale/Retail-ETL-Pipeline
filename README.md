@@ -1,4 +1,4 @@
-# 🛒 Retail ETL Data Pipeline
+## 🛒 Retail ETL Data Pipeline
 
 An end-to-end **data engineering pipeline** that ingests, validates, and transforms retail e-commerce data into analytics-ready datasets using a **Medallion Architecture (Bronze → Silver → Gold)**.
 
@@ -8,7 +8,7 @@ The project demonstrates production-style **data quality validation, referential
 
 ---
 
-# 📊 Project Overview
+## 📊 Project Overview
 
 Retail companies generate massive amounts of transactional data across orders, customers, products, and payments. However, raw data is often **incomplete, inconsistent, or unreliable**.
 
@@ -24,7 +24,7 @@ The pipeline ensures that downstream analytics and dashboards are built on **tru
 
 ---
 
-# 🏗 Architecture
+## 🏗 Architecture
 
 The pipeline follows a **Medallion Data Architecture**, a common design pattern in modern data engineering systems.
 
@@ -47,7 +47,7 @@ This architecture is widely used in **modern lakehouse systems** such as Databri
 
 ---
 
-# 🧰 Tech Stack
+## 🧰 Tech Stack
 
 | Technology               | Purpose                              |
 | ------------------------ | ------------------------------------ |
@@ -61,13 +61,13 @@ This architecture is widely used in **modern lakehouse systems** such as Databri
 
 ---
 
-# 🔍 Data Quality Framework
+## 🔍 Data Quality Framework
 
 The pipeline includes a **configuration-driven data quality validation framework**.
 
 Quality checks are defined through a **`dq_config` object**, allowing reusable and scalable validation rules across datasets.
 
-## Supported Validations
+### Supported Validations
 
 | Check Type            | Description                          |
 | --------------------- | ------------------------------------ |
@@ -81,7 +81,7 @@ Quality checks are defined through a **`dq_config` object**, allowing reusable a
 
 ---
 
-# 📈 Quality Monitoring
+## 📈 Quality Monitoring
 
 All validation notebooks produce a **metrics DataFrame**, which is consolidated into a centralized table:  `quality_metrics`
 
@@ -103,9 +103,10 @@ This enables:
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/c9b3666e11fe71398436e60f2d8f87fc707b8d5d/Images/Data%20Quality%20Monitoring.png" width="70%">
 <p><em>Figure: Quality Metrics Snapshot</em></p>
+
 ---
 
-# 🔗 Referential Integrity Validation
+## 🔗 Referential Integrity Validation
 
 The pipeline validates critical relationships across datasets.
 
@@ -120,7 +121,7 @@ Validation is performed using **left anti joins** to detect orphan records.
 
 ---
 
-# 🗂 Data Model
+## 🗂 Data Model
 
 The Gold Layer follows a **dimensional modelling approach** designed for analytics workloads.
 
@@ -128,7 +129,7 @@ The Gold Layer follows a **dimensional modelling approach** designed for analyti
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/57756fec241deb84a3370b942aacd385cdacd95e/Images/Data%20Model%20Diagram1.png" width="70%">
 <p><em>Figure: Data Model Diagram</em></p>
 
-### Core Entities
+#### Core Entities
 
 Dimension Tables:
 
@@ -145,7 +146,7 @@ This schema enables efficient aggregation and BI reporting.
 
 ---
 
-# 📊 Business Intelligence Report
+## 📊 Business Intelligence Report
 
 To demonstrate the analytical value of the ETL pipeline, a **Power BI report** was built on top of the **Gold layer datasets**.
 
@@ -155,7 +156,7 @@ All reports include a **Year Slicer (2016, 2017, 2018)** allowing dynamic filter
 
 ---
 
-# 📊1 — Sales Performance
+## 📊1 — Sales Performance
 
 This report provides an overview of **overall business performance and sales metrics**.
 
@@ -187,7 +188,7 @@ Each KPI includes **comparison vs business targets**.
 
 ---
 
-# 👥 2 — Customer Analysis
+## 👥 2 — Customer Analysis
 
 This report analyzes **customer segmentation and geographic distribution**.
 
@@ -215,7 +216,7 @@ This helps identify **high-value regions and customer segments**.
 
 ---
 
-# 📦 3 — Product Analysis
+## 📦 3 — Product Analysis
 
 This report focuses on **product category performance and logistics insights**.
 
@@ -235,7 +236,7 @@ These insights help optimize **product strategy and shipping efficiency**.
 
 ---
 
-# 📑 4 — Order Analysis
+## 📑 4 — Order Analysis
 
 This report analyzes **order trends and operational efficiency**.
 
@@ -257,7 +258,7 @@ This enables monitoring of **order lifecycle performance and operational bottlen
 
 ---
 
-# 🎯 Key Business Insights Enabled
+## 🎯 Key Business Insights Enabled
 
 The dashboards allow stakeholders to quickly answer questions such as:
 
@@ -269,7 +270,7 @@ The dashboards allow stakeholders to quickly answer questions such as:
 
 ---
 
-# 🚀 Running the Pipeline
+## 🚀 Running the Pipeline
 
 Clone the repository:
 
@@ -290,14 +291,14 @@ Execute the pipeline in order:
 ```
 
 ---
-## 🙏 Credits
+### 🧡 Credits
 
 - **Dataset:** Brazilian E-Commerce Public Dataset by Olist ([Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce))
 - **Platforms used:** [Databricks](https://www.databricks.com/) for ETL and data engineering, and [Power BI](https://powerbi.microsoft.com/) for dashboards
 - **Dashboard theme inspiration:** [Superstore Sales Theme](https://community.fabric.microsoft.com/t5/Themes-Gallery/Superstore-Sales/td-p/3231442)
 
 - **Icon Credits:**<br>
-  <sub><em>(Below icons were used in the PowerBI report)</em></sub>
+  <sub><em>(Below are the icons used in the Power BI report)</em></sub>
   
   <sub>
   <a href="https://www.flaticon.com/free-icons/whiteboard" title="whiteboard icons">Whiteboard icons created by Freepik - Flaticon</a><br>
