@@ -33,7 +33,7 @@ The pipeline ensures that downstream analytics and dashboards are built on **tru
 The pipeline follows a **Medallion Data Architecture**, a common design pattern in modern data engineering systems.
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/c9b3666e11fe71398436e60f2d8f87fc707b8d5d/Images/Pipeline%20Architecture1.png" width="80%">
-<p><em>Figure: Pipeline Architecture Diagram</em></p>
+<p><sub><em>Figure: Pipeline Architecture Diagram</em></sub></p>
 
 
 
@@ -106,7 +106,7 @@ This enables:
 * data quality SLAs
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/c9b3666e11fe71398436e60f2d8f87fc707b8d5d/Images/Data%20Quality%20Monitoring.png" width="70%">
-<p><em>Figure: Quality Metrics Snapshot</em></p>
+<p><sub><em>Figure: Quality Metrics Snapshot</em></sub></p>
 
 ---
 
@@ -131,7 +131,7 @@ The Gold Layer follows a **dimensional modelling approach** designed for analyti
 
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/57756fec241deb84a3370b942aacd385cdacd95e/Images/Data%20Model%20Diagram1.png" width="70%">
-<p><em>Figure: Data Model Diagram</em></p>
+<p><sub><em>Figure: Data Model Diagram</em></sub></p>
 
 #### Core Entities
 
@@ -166,7 +166,7 @@ This report provides an overview of **overall business performance and sales met
 
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/cabfaf8542c2c2d98695779cfdff8c618137c131/Images/ETL-project_brazil_page-0001.jpg" width="80%">
-<p><em>Figure: Sales report</em></p>
+<p><sub><em>Figure: Sales report</em></sub></p>
 
 ### Key KPIs
 
@@ -198,7 +198,7 @@ This report analyzes **customer segmentation and geographic distribution**.
 
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/cabfaf8542c2c2d98695779cfdff8c618137c131/Images/ETL-project_brazil_page-0002.jpg" width="80%">
-<p><em>Figure: Customer Analysis</em></p>
+<p><sub><em>Figure: Customer Analysis</em></sub></p>
 
 
 ### Key Metrics
@@ -225,7 +225,7 @@ This helps identify **high-value regions and customer segments**.
 This report focuses on **product category performance and logistics insights**.
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/cabfaf8542c2c2d98695779cfdff8c618137c131/Images/ETL-project_brazil_page-0003.jpg" width="80%">
-<p><em>Figure: Product Analysis</em></p>
+<p><sub><em>Figure: Product Analysis</em></sub></p>
 
 ### Visualizations
 
@@ -245,7 +245,7 @@ These insights help optimize **product strategy and shipping efficiency**.
 This report analyzes **order trends and operational efficiency**.
 
 <img src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/cabfaf8542c2c2d98695779cfdff8c618137c131/Images/ETL-project_brazil_page-0004.jpg" width="80%">
-<p><em>Figure: Order Analysis</em></p>
+<p><sub><em>Figure: Order Analysis</em></sub></p>
 
 ### Visualizations
 
