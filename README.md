@@ -1,7 +1,7 @@
 
 
 <h1 style="display: flex; align-items: center; gap: 10px; margin: 0;">
-  Movie Recommendation System
+  Retail ETL Data Pipeline
   <img
     src="https://github.com/ManasiBhosale/Retail-ETL-Pipeline/blob/1162c87c306faf11c943355dd73abf0e73e5adb7/Images/shopping-cart.gif"
     alt="Shopping Cart GIF"
